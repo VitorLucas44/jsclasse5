@@ -108,7 +108,7 @@ class Pharmacy {
         patient.pocket.push(patient.traitement);
         patient.pay(traitement.price);
     } else {
-        console.log(`${patient.name} n'a pas assez d'argent pour le traitement et meurt.`);
+        console.log(`${patient.name} n'a pas assez d'argent pour le traitement et meurt en direction du cimetière.`);
     }
     }
 }
